@@ -2,15 +2,15 @@ import { Link as ReactLink } from 'react-router-dom';
 const NavBar = () => {
     return ( 
 
-<div className="sticky top-0 bg-gray-900 opacity-100 md:h-12">
+<div className="sticky top-0 bg-black md:h-12">
   <div className="max-w-6xl mx-auto px- py-">
     <div className="flex justify-between">
   
       <div className="flex space-x-20">
         <div className="logo ">
-            <div className=" font-medium">
-            <ReactLink classNameNameName="flex py-2 px-4" to="/">
-            <img class="h-8 w-auto sm:h-10" src="https://finder.createx.studio/img/logo/logo-light.svg"/>
+            <div className="logo ">
+            <ReactLink classNameNameName="flex py-2 px-4 " to="/">
+            <img src="https://finder.createx.studio/img/logo/logo-light.svg" alt=""/>
             </ReactLink>
             </div>
      
@@ -35,7 +35,7 @@ const NavBar = () => {
    
       </div>
 
-      <div className="  mobile button md:hidden flex items-center">
+      <div className="  mobile button md:hidden flex items-center bg-white">
         <button className="mobile-menu-button">
           <svg className="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
