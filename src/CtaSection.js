@@ -10,9 +10,7 @@ const CtaSection = () => {
     </h2>
     <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
       <div class="inline-flex rounded-md shadow">
-        <a href="#" class="inline-flex items-center justify-center px-6 py-1 border border-transparent font-normal text-base text-green bg-white">
-          Get started
-        </a>
+       
       </div>
     </div>
   </div>
