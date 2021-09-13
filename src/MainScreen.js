@@ -3,10 +3,10 @@ import Hero from './Hero'
 import FeatureSection from './FeatureSection.js';
 import Footer from './Footer'
 import CtaSection from './CtaSection.js';
-import Blog from './Blog.js';
 import Steps from './Steps.js';
-import Teams from './Teams.js';
-import Content from './Content.js';
+import Stats from './Stats'
+import CardLanding from './CardLanding.js';
+
 
 const MainScreen = () => {
     return ( 
@@ -14,11 +14,10 @@ const MainScreen = () => {
           <NavBar/>
           <Hero/>
           <FeatureSection/>
-          <Content/>
+          <Stats/>
           <Steps/>
-          <Teams/>
           <CtaSection/>
-          <Blog/>
+          <CardLanding/>
           <Footer/>
          
         </div>

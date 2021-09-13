@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-  <div className="mb-16">
+  <div className="heroes">
       <div className="hero-image"
       style={{ 
         backgroundImage: `url(https://www.shipafreight.com/static/caf79029ac4fa9f6da2c1c562a8ef0a3/48f22/d2b8adb1f19215927437a598cb800d36.jpg)` 
@@ -16,81 +16,51 @@ const Hero = () => {
               </span>{' '}
               Book your freight. Get an <span className="text-yellow-700"> instant quote online.</span> 
             </h2>
-            <p className="text-base text-gray-100 md:text-lg">
+            <p className="text-sm text-gray-100 md:text-lg">
             Ship air & ocean freight. Get your instant quote online, book, and pay in just a few steps.
             </p>
           </div>
           <div className="flex items-center sm:justify-center">
             <button
               type="submit"
-              className="px-6 py-2 rounded-full inline-flex items-center justify-center  mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-yellow-700 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+              className="px-6 py-2 rounded-full inline-flex items-center justify-center  mr-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-yellow-700 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none text-sm"
             >
               Get started
             </button>
           </div>
         </div>
       </div>
-      <div className="px-4 sm:px-0">
+      <div className="px-8 sm:px-0 text-sm">
         <div className="absolute insert-0 bg-gray-100 h-1/2" />
         <div className=" grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
           <div className="inline-block p-8 text-center">
-            <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+            <div className="flex items-center justify-center w-24 h-24 mx-auto mb-4 full bg-indigo-50"
+             style={{ 
+        backgroundImage: `url(https://dsv-media-premium.azureedge.net/~/media/corporate/spots/icons/blue-icons/xpress-courier.png?rev=78ec2a828b0841d3bccc69c2675166a0&w=96)` 
+               }}>
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Make it better
+              when time matters
             </p>
           </div>
           <div className="inline-block p-8 text-center">
-            <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+            <div className="flex items-center justify-center  w-24 h-24 mx-auto mb-4 full bg-indigo-50" 
+              style={{ 
+            backgroundImage: `url(https://dsv-media-premium.azureedge.net/~/media/corporate/spots/icons/blue-icons/xpress-economy.png?rev=9a4ed24b68d24d07bd3632990d3c382c&w=96)` 
+               }}>
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Do it faster
+             When cost matters
             </p>
           </div>
           <div className="inline-block p-8 text-center">
-            <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-indigo-50">
-              <svg
-                className="w-10 h-10 text-deep-purple-accent-400"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
-              </svg>
+            <div className="flex items-center justify-center  w-24 h-24 mx-auto mb-4 full bg-indigo-50"
+             style={{ 
+             backgroundImage: `url(https://dsv-media-premium.azureedge.net/~/media/corporate/spots/icons/blue-icons/xpress-special.png?rev=40cd8fa438074a2d82c14e6f198a85b6&w=96)` 
+               }}>
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Working harder
+              When its critical
             </p>
           </div>
         </div>

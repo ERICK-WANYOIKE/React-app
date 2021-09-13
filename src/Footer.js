@@ -2,38 +2,22 @@ import { Link as ReactLink } from 'react-router-dom';
 const Footer = () => {
 
     return ( 
-      <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+      <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 text-sm">
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2">
           <ReactLink classNameNameName="flex py-2 px-4 inline-flex items-center " to="/">
-          <svg
-          className="w-8 text-indigo-600"
-          viewBox="0 0 24 24"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeMiterlimit="10"
-          stroke="currentColor"
-          fill="none"
-        >
-          <rect x="3" y="1" width="7" height="12" />
-          <rect x="3" y="17" width="7" height="6" />
-          <rect x="14" y="1" width="7" height="6" />
-          <rect x="14" y="11" width="7" height="12" />
-        </svg>
-        <span className="ml-2 text-xl font-bold tracking-wide text-black uppercase">
-          Company
+        <span className="ml-2 text-xl font-bold tracking-wide text-gray-900">
+          Boots
         </span>
           </ReactLink>
             
           <div className="mt-6 lg:max-w-sm">
             <p className="text-sm text-gray-800">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.
+             Boots 2.0 is an online logistics platform optimized to help your business access the global trade environment with ease.
+              We digitalize international freight forwarding services with the goal to simplify worldwide logistics and facilitate trade.
             </p>
             <p className="mt-4 text-sm text-gray-800">
-              Eaque ipsa quae ab illo inventore veritatis et quasi architecto
-              beatae vitae dicta sunt explicabo.
+             Book, manage, and track your international shipments from one platform
             </p>
           </div>
         </div>
@@ -49,18 +33,18 @@ const Footer = () => {
               title="Our phone"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              850-123-5021
+            +971523679438
             </a>
           </div>
           <div className="flex">
             <p className="mr-1 text-gray-800">Email:</p>
             <a
-              href="mailto:info@lorem.mail"
+              href="mailto:Boots.io@gmail.com"
               aria-label="Our email"
               title="Our email"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              info@lorem.mail
+              Boots.io@gmail.com
             </a>
           </div>
           <div className="flex">
@@ -73,7 +57,7 @@ const Footer = () => {
               title="Our address"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              312 Lovely Street, NY
+              312 Dubai, United Arabs Emirates
             </a>
           </div>
         </div>
@@ -109,14 +93,13 @@ const Footer = () => {
             </a>
           </div>
           <p className="mt-4 text-sm text-gray-500">
-            Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-            spare ribs salami.
+          Stay connected with us
           </p>
         </div>
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
         <p className="text-sm text-gray-600">
-          © Copyright 2020 Lorem Inc. All rights reserved.
+          © Copyright 2021 Boots 2.0 Inc. All rights reserved.
         </p>
         <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <li>
@@ -124,7 +107,7 @@ const Footer = () => {
               href="/"
               className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
-              F.A.Q
+            Privacy Policy
             </a>
           </li>
           <li>
@@ -132,7 +115,7 @@ const Footer = () => {
               href="/"
               className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
-              Privacy Policy
+            Terms of Service
             </a>
           </li>
           <li>
@@ -140,7 +123,7 @@ const Footer = () => {
               href="/"
               className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
-              Terms &amp; Conditions
+            Terms & conditions
             </a>
           </li>
         </ul>
