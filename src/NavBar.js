@@ -1,8 +1,9 @@
 import { Link as ReactLink } from 'react-router-dom';
+
 const NavBar = () => {
     return ( 
-
-<div className="sticky top-0 bg-gray-50">
+    
+<div className=" sticky bg-gray-100 top-0  z-index: 99 overflow-hidden overscroll-contain transition: 0.4s  ">
   <div className="max-w-6xl mx-auto px- py-">
     <div className="flex justify-between">
   
@@ -73,6 +74,7 @@ const NavBar = () => {
   <ReactLink classNameNameName="py-2 px-1" to="/contact">Contact</ReactLink>
   </div>
 </div>
+
       
 
 

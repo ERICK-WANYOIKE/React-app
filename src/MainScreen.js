@@ -4,7 +4,6 @@ import FeatureSection from './FeatureSection.js';
 import Footer from './Footer'
 import CtaSection from './CtaSection.js';
 import Steps from './Steps.js';
-import Stats from './Stats'
 import CardLanding from './CardLanding.js';
 
 
@@ -14,10 +13,9 @@ const MainScreen = () => {
           <NavBar/>
           <Hero/>
           <FeatureSection/>
-          <Stats/>
           <Steps/>
-          <CtaSection/>
           <CardLanding/>
+          <CtaSection/>
           <Footer/>
          
         </div>
