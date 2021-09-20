@@ -12,7 +12,8 @@ const Steps = () => {
 
     return ( 
       <div data-aos="fade-right" >
-        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-gray-900">
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 text-gray-900
+        bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500">
       <div className="grid gap-6 row-gap-10 lg:grid-cols-2">
         <div className="lg:py-6 lg:pr-16">
           <div className="flex">
@@ -195,7 +196,7 @@ const Steps = () => {
         <div className="steps-image">
           <img
             className=" object-cover object-bottom w-full rounded shadow-lg h-96  lg:h-full"
-            src="https://images.unsplash.com/photo-1520333789090-1afc82db536a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBlb3BsZSUyMGF0JTIwd29ya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+            src="https://images.pexels.com/photos/3810831/pexels-photo-3810831.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
             alt=""
           />
         </div>

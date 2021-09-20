@@ -5,6 +5,7 @@ import Footer from './Footer'
 import CtaSection from './CtaSection.js';
 import Steps from './Steps.js';
 import CardLanding from './CardLanding.js';
+import LandingSection from '../src/SubComps/LandingSection';
 
 
 const MainScreen = () => {
@@ -15,6 +16,7 @@ const MainScreen = () => {
           <FeatureSection/>
           <Steps/>
           <CardLanding/>
+          <LandingSection/>
           <CtaSection/>
           <Footer/>
          

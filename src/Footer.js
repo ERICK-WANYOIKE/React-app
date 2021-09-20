@@ -6,17 +6,17 @@ const Footer = () => {
       <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
         <div className="sm:col-span-2">
           <ReactLink classNameNameName="flex py-2 px-4 inline-flex items-center " to="/">
-        <span className="ml-2 text-xl font-bold tracking-wide text-gray-400">
+        <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 ">
           Boots
         </span>
           </ReactLink>
             
           <div className="mt-6 lg:max-w-sm">
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-100 ">
              Boots 2.0 is an online logistics platform optimized to help your business access the global trade environment with ease.
               We digitalize international freight forwarding services with the goal to simplify worldwide logistics and facilitate trade.
             </p>
-            <p className="mt-4 text-sm text-gray-400">
+            <p className="mt-4 text-sm text-gray-100 ">
              Book, manage, and track your international shipments from one platform
             </p>
           </div>
@@ -26,36 +26,36 @@ const Footer = () => {
             Contacts
           </p>
           <div className="flex">
-            <p className="mr-1 text-gray-400">Phone:</p>
+            <p className="mr-1 text-gray-100 ">Phone:</p>
             <a
               href="tel:850-123-5021"
               aria-label="Our phone"
               title="Our phone"
-              className="transition-colors duration-300 text-gray-400hover:text-deep-purple-800"
+              className="transition-colors duration-300 text-gray-100 hover:text-deep-purple-800"
             >
             +971523679438
             </a>
           </div>
           <div className="flex">
-            <p className="mr-1 text-gray-400">Email:</p>
+            <p className="mr-1 text-gray-100 ">Email:</p>
             <a
               href="mailto:Boots.io@gmail.com"
               aria-label="Our email"
               title="Our email"
-              className="transition-colors duration-300 text-gray-400hover:text-deep-purple-800"
+              className="transition-colors duration-300 text-gray-100 hover:text-deep-purple-800"
             >
               Boots.io@gmail.com
             </a>
           </div>
           <div className="flex">
-            <p className="mr-1 text-gray-400">Address:</p>
+            <p className="mr-1 text-gray-100 ">Address:</p>
             <a
               href="https://www.google.com/maps"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Our address"
               title="Our address"
-              className="transition-colors duration-300 text-gray-400 hover:text-deep-purple-800"
+              className="transition-colors duration-300 text-gray-100  hover:text-deep-purple-800"
             >
               312 Dubai, United Arabs Emirates
             </a>
@@ -92,7 +92,7 @@ const Footer = () => {
               </svg>
             </a>
           </div>
-          <p className="mt-4 text-sm text-gray-400">
+          <p className="mt-4 text-sm text-gray-100 ">
           Stay connected with us
           </p>
         </div>
