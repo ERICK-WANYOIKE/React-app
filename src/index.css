@@ -10,6 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x :hidden
 }
 
 code {
@@ -17,6 +18,3 @@ code {
     monospace;
 }
 
-heros {
-  background-image: url("https://assets-global.website-files.com/5f6b7190899f41fb70882d08/5f85cf0e9a917f5c41b4cca5_homepage-hero-2880-min-p-2000.png");
-}

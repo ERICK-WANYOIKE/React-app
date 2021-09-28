@@ -11,7 +11,7 @@ import LandingSection from '../src/SubComps/LandingSection';
 const MainScreen = () => {
     return ( 
         <div>
-          <NavBar/>
+          <NavBar logo = "Bouts"/>
           <Hero/>
           <FeatureSection/>
           <Steps/>

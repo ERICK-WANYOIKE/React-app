@@ -98,14 +98,14 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
-        <p className="text-sm text-gray-600">
+        <p className="text-sm text-white">
           © Copyright 2021 Boots 2.0 Inc. All rights reserved.
         </p>
         <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
           <li>
             <a
               href="/"
-              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              className="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
             Privacy Policy
             </a>
@@ -113,7 +113,7 @@ const Footer = () => {
           <li>
             <a
               href="/"
-              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              className="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
             Terms of Service
             </a>
@@ -121,7 +121,7 @@ const Footer = () => {
           <li>
             <a
               href="/"
-              className="text-sm text-gray-600 transition-colors duration-300 hover:text-deep-purple-accent-400"
+              className="text-sm text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
             >
             Terms & conditions
             </a>
