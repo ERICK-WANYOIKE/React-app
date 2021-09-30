@@ -1,11 +1,10 @@
 import NavBar from './NavBar.js';
 import Hero from './Hero'
-import FeatureSection from './FeatureSection.js';
+import FeatureSection from './SubComps/FeatureSection.js';
 import Footer from './Footer'
-import CtaSection from './CtaSection.js';
-import Steps from './Steps.js';
-import CardLanding from './CardLanding.js';
+import CardLanding from './SubComps/CardLanding.js';
 import LandingSection from '../src/SubComps/LandingSection';
+import Stats from './SubComps/Stats.js';
 
 
 const MainScreen = () => {
@@ -14,10 +13,9 @@ const MainScreen = () => {
           <NavBar logo = "Bouts"/>
           <Hero/>
           <FeatureSection/>
-          <Steps/>
           <CardLanding/>
           <LandingSection/>
-          <CtaSection/>
+          <Stats/>
           <Footer/>
          
         </div>
