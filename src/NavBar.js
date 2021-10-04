@@ -5,35 +5,18 @@ const NavBar = () => {
 
       return ( 
         
-        <div className=" fixed sticky bg-black top-0 ">
+        <div className=" fixed sticky bg-white opacity-98 top-0 ">
         <div class="px-2 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-24">
         <div class="relative flex items-center justify-between">
           <div class="flex items-center">
-              <ReactLink className="inline-flex items-center mr-8" to="/">
-              <svg
-              className="w-8 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500"
-              viewBox="0 0 24 24"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeMiterlimit="10"
-              stroke="currentColor"
-              fill="none"
-            >
-              <rect x="3" y="1" width="7" height="12" />
-              <rect x="3" y="17" width="7" height="6" />
-              <rect x="14" y="1" width="7" height="6" />
-              <rect x="14" y="11" width="7" height="12" />
-            </svg>
-            <span className= "ml-2 text-xl font-bold tracking-wide text-gray-100">
-            Bouts
-              </span>
+              <ReactLink className="inline-flex text-white items-center mr-8" to="/">
+              <h1 className="text-2xl text-blue-600 w-32 font-mono font-extrabold">Boost</h1>
               </ReactLink>
 
 
 
-            <ul class=" primary nav flex items-center hidden space-x-4 lg:flex text-white
-               text-sm font-normal">
+            <ul class=" primary nav font-medium flex items-center hidden space-x-4 lg:flex text-black
+            text-sm font-sans">
               <ReactLink className="py-2 px-1" to="/solution">Solutions</ReactLink>
               <ReactLink className="py-2 px-1" to="/docs">Docs</ReactLink>
               <ReactLink className="py-2 px-1" to="/Platform">Platform</ReactLink>
@@ -44,8 +27,8 @@ const NavBar = () => {
 
           <ul class="  secondary nav flex items-center hidden space-x-4 lg:flex
           serif text-sm font-normal">
-              <ReactLink className="py-2 px-1 text-blue-200" to="/login">Login</ReactLink>
-              <button className="rounded-full bg-black py-2 px-3 bg-red-600 hover:bg-red-700 ">
+              <ReactLink className="py-2 px-1 text-blue-500" to="/login">Login</ReactLink>
+              <button className="rounded-full bg-black py-2 px-3 bg-blue-600 hover:bg-blue-700 ">
               <ReactLink className="py-2 px-1 text-white font-semibold " to="/get started">Get started</ReactLink>
               </button>
           </ul>
@@ -78,26 +61,9 @@ const NavBar = () => {
                 <div class="p-5 bg-white border rounded shadow-sm">
                   <div class="flex items-center justify-between mb-4">
                     <div>
-                        <ReactLink className="inline-flex items-center mr-8" to="/">
-                        <svg
-                        className="w-8 bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500"
-                        viewBox="0 0 24 24"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeMiterlimit="10"
-                        stroke="currentColor"
-                        fill="none"
-                      >
-                        <rect x="3" y="1" width="7" height="12" />
-                        <rect x="3" y="17" width="7" height="6" />
-                        <rect x="14" y="1" width="7" height="6" />
-                        <rect x="14" y="11" width="7" height="12" />
-                      </svg>
-                      <span className= "ml-2 text-xl font-bold tracking-wide text-gray-800">
-                      Bouts
-                        </span>
-                        </ReactLink>
+                    <ReactLink className="inline-flex items-center mr-8" to="/">
+                       <h1 className=" text-2xl text-blue-600 w-32 font-mono font-extrabold">Boost</h1>
+                    </ReactLink>
 
                     </div>
                     <div>
@@ -118,7 +84,7 @@ const NavBar = () => {
                   </div>
 
                   <nav className="mobile-menu">
-                    <ul class="space-y-4 ">
+                    <ul class="space-y-4 font-medium text-sm font-sans ">
                         <ReactLink className="list-item" to="/solution">Solutions</ReactLink>
                         <ReactLink className="list-item" to="/docs">Docs</ReactLink>
                         <ReactLink className="list-item" to="/Platform">Platform</ReactLink>
@@ -126,7 +92,7 @@ const NavBar = () => {
                         <ReactLink className="list-item" to="/contacts">Contact</ReactLink>
                         <ReactLink className=" list-item text-blue-900" to="/login">Login</ReactLink>
                         <button className="rounded-full bg-black py-2 px-3 bg-red-600 hover:bg-red-700 ">
-                        <ReactLink className="py-2 px-1 text-white font-semibold " to="/get started">Get started</ReactLink>
+                        <ReactLink className="py-2 px-1 text-gray-100 font-semibold " to="/get started">Get started</ReactLink>
                         </button>
                     </ul>
                   </nav>
