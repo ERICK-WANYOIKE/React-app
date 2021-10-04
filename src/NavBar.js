@@ -7,7 +7,7 @@ const NavBar = () => {
         
         <div className=" fixed sticky bg-white opacity-98 top-0 ">
         <div class="px-2 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-24">
-        <div class="relative flex items-center justify-between">
+        <div class="relative flex items-center justify-evenly">
           <div class="flex items-center">
               <ReactLink className="inline-flex text-white items-center mr-8" to="/">
               <h1 className="text-2xl text-blue-600 w-32 font-mono font-extrabold">Boost</h1>
