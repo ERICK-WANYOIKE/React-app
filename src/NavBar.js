@@ -5,8 +5,8 @@ const NavBar = () => {
 
       return ( 
         
-        <div className=" fixed sticky bg-white opacity-98 top-0 ">
-        <div class="px-2 py-3 mx-auto sm:max-w-xl sm:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-24">
+        <div className=" fixed sticky bg-yellow-900 opacity-98 top-0 ">
+        <div class="px-2 py-3 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-24">
         <div class="relative flex items-center justify-between">
           <div class="flex items-center">
               <ReactLink className="inline-flex text-white items-center mr-8" to="/">
